@@ -1,0 +1,101 @@
+/* Estilos generales para el contenedor del panel de comentarios */
+.panel-comentarios {
+    max-width: 600px; /* Ancho máximo del panel */
+    margin: 20px auto; /* Centrar el panel en la página */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo claro */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo del título */
+  .panel-comentarios h3 {
+    text-align: center; /* Centrar el título */
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+    color: #333; /* Color del texto */
+  }
+  
+  /* Estilos para el área de comentarios */
+  textarea {
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100px; /* Altura fija */
+    margin-bottom: 10px; /* Espaciado inferior */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de letra */
+    transition: border 0.3s; /* Transición suave para el borde */
+  }
+  
+  /* Cambio de borde al enfocar el textarea */
+  textarea:focus {
+    border: 1px solid #007bff; /* Color de borde al enfocar */
+    outline: none; /* Sin contorno */
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor a mano */
+    margin-right: 10px; /* Espaciado derecho */
+    font-size: 16px; /* Tamaño de letra */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+  }
+  
+  /* Efecto hover para los botones */
+  button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+  }
+  
+  /* Estilos para los comentarios */
+  .comentario {
+    margin: 10px 0; /* Espaciado superior e inferior */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #fff; /* Color de fondo blanco */
+    position: relative; /* Posición relativa para posicionar el botón de eliminar */
+  }
+  
+  /* Estilo para el texto de los comentarios */
+  .comentario p {
+    margin: 0; /* Sin margen */
+    font-size: 14px; /* Tamaño de letra */
+    color: #555; /* Color del texto */
+  }
+  
+  /* Estilos para el botón de eliminar */
+  .comentario button {
+    position: absolute; /* Posición absoluta */
+    top: 10px; /* Desde la parte superior */
+    right: 10px; /* Desde la derecha */
+    background-color: #dc3545; /* Color de fondo rojo */
+  }
+  
+  /* Efecto hover para el botón de eliminar */
+  .comentario button:hover {
+    background-color: #c82333; /* Color al pasar el ratón */
+  }
+  
+  /* Estilo para los formularios de inicio de sesión y registro */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de letra */
+  }
+  
+  /* Cambio de borde al enfocar los inputs */
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border: 1px solid #007bff; /* Color de borde al enfocar */
+    outline: none; /* Sin contorno */
+  }
+  
